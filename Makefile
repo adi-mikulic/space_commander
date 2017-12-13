@@ -2,7 +2,7 @@ CC=g++
 CFLAGS=-c -Wall -g
 LDFLAGS=
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=pa4
+EXECUTABLE=game
 SOURCES=Cart_Point.cpp \
 Cart_Vector.cpp Game_Object.cpp Oxygen_Depot.cpp Space_Station.cpp Person.cpp Astronaut.cpp Alien.cpp Model.cpp Game_Command.cpp View.cpp main.cpp
 
@@ -14,4 +14,4 @@ $(EXECUTABLE): $(OBJECTS)
 .cpp.o:
 	$(CC) $(CFLAGS) $< -o $@
 
-
+# g++ Cart_Point.cpp Cart_Vector.cpp Game_Object.cpp Oxygen_Depot.cpp Space_Station.cpp Person.cpp Astronaut.cpp Alien.cpp Model.cpp Game_Command.cpp View.cpp main.cpp -g -o game
