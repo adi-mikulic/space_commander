@@ -66,9 +66,7 @@ cout << display_code << id_num << ": \"I'm already there, see?\"" << endl;
 // new line stuff
 
 cout << "\n";
-    cout << "EC327: Introduction to Software Engineering" << endl;
-    cout << "Fall 2017" << endl;
-    cout << "Programming Assignment 3" << endl;
+    cout << "STRANDED" << endl;
     cout << "\n";
 
     Model model;
@@ -101,12 +99,15 @@ cout << "\n";
 
 // connected to mining command, ore deposits need a function, start_mining
     // DOES NOT HAPPEN INSTANTLY, takes in number of moonstones player wishes to mine,
-    // and 
+    // and subtracts it from number in ore deposit
 
 // player will not pick up 1 moonstone per step anymore, although there will be
     // a random chance they could pick up 1 when moving
 
-// 
+// astronauts still have to deposit to space stations, and can still lock in to them, 
+    // but the only benefit of doing so would be that ox doesnt go down and cant get hit by aliens
+
+// add new class, health depot, refills health 
 
 // make it possible to lock in at station when on top of one, rn you have to 
     // move off the station to do so
@@ -116,7 +117,8 @@ cout << "\n";
 
 // once astronaut locked into station, can't be hit anymore, also oxygen doesn't go down anymore
 
-// make aliens AI, take out 2 player option
+// make aliens AI, take out 2 player option, behavior includes:
+    // if astronaut enters detection range
 
 // add astroids to fly across screen randomly, and if hit astronaut, randomly choose
     // damage to inflict on it, possible to kill astronaut, make sure its shown on screen too
@@ -128,11 +130,14 @@ cout << "\n";
 
 // make grid bigger, also more ox depots and stations
 
-// make it so a win happens if all astronauts that are alive launch from their space stations
+// add new class, rocket, where the astronauts have to lock in to launch and win the game
+
+// make it so a win happens if all astronauts that are alive launch from rocket
 
 // if all astronauts die, player loses
 
 // take out 'n' command, no real point to it from a game standpoint
+    // only be able to make ox depots
 
 // the player will start with a number of astronauts, and a number of space stations equal
     // to number of spawned astronauts, number will be random so diff each game
@@ -176,6 +181,7 @@ cout << "\n";
     // more damage
     // bigger range
     // slightly slower
+    // it will only be stopped if no astronauts are outside
 
 // add tutorial
 
